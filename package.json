@@ -1,0 +1,20 @@
+{
+  "name": "sidelines-group-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test:headed": "npx playwright test --workers=1 --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "private": true,
+  "dependencies": {
+    "lighthouse": "^12.4.0",
+    "playwright-lighthouse": "^4.0.0"
+  }
+}
